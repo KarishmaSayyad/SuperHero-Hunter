@@ -1,0 +1,113 @@
+
+
+body{
+    margin: 0;
+    /* background-image: url("back1.jpg"); */
+    /* background-size: cover; */
+    /* height: 100%; */
+    /* background-repeat: no-repeat; */
+    background-image: radial-gradient(red ,#0c0d46 50%, #1b00ff 100%);
+}
+/* nav{
+    
+    display: flex;
+    justify-content: space-between;
+
+} */
+#container{
+    margin-top: 0;
+    height: 50rem;
+    /* background-image: repeating-conic-gradient(red, rgb(221, 68, 68) 10%, red 15%); */
+    background-image: url(back1.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+nav{
+    display: flex;
+    color: #c8b0b0;
+    justify-content: space-between;
+    background-color: rgb(20, 7, 40);
+    font-weight: bolder;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+nav div :hover{
+    font-size: 20px;
+    color: rgb(224, 20, 20);
+    border-radius: 5px;
+    text-shadow: yellow;
+    cursor: pointer;
+}
+.nav_class{
+    margin-left: 1rem;
+    padding: 25px;
+    margin-right: 10px;
+}
+
+#sup_nav{
+    align-items: center;
+    
+}
+#search_box{
+    width: 40%;
+    height: 2px;
+    /* position: absolute; */
+    /* margin-left: 45em; */
+    /* margin-top: 10rem;  */
+    margin: 10% 50% 0;
+    border-radius: 15px;
+    /* border-top-right-radius: 5rem; */
+    display: block;
+    /* align-items: center; */
+    padding: 1.5%;
+    display: inline-block;
+    /* margin-left: 15rem; */
+}
+
+.search-item{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    border: red 50px;
+    font-family: -webkit-body;
+    /* border-radius: 5px solid; */
+      /* border: white solid 2px;
+      margin-bottom: 2px; */
+  }
+#btn{
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+nav span{
+    color:aliceblue;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+}
+
+#searchResults
+{
+    margin-left: 40%;
+}
+
+
+#searchResults div{
+    padding: 5px;
+    color: #faeed7;
+    font-size: large;
+    justify-content:space-around;
+}
+
+#searchResults div:hover{
+    color: yellow;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+
